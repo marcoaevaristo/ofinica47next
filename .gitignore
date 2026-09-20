@@ -18,3 +18,5 @@ pnpm-debug.log*
 # Local tooling files
 .DS_Store
 *.pem
+node_modules/
+.next/
