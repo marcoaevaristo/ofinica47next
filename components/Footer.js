@@ -32,7 +32,16 @@ export default function Footer() {
               Oficina <span className="text-copper">47</span>
             </span>
           </div>
-          <p className="font-gauge">Fabricado em Ouro Fino — Minas Gerais</p>
+          <address className="font-gauge not-italic">
+            <a
+              href="https://maps.google.com/?q=-22.292719,-46.381836"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded transition-colors hover:text-copper"
+            >
+              Rua Luís Bolognani, 152 · Palomos · Ouro Fino — MG
+            </a>
+          </address>
           <p>© {new Date().getFullYear()} Oficina 47. Todos os direitos reservados.</p>
         </div>
       </div>

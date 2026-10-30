@@ -19,10 +19,17 @@ const dados = {
       image: `${SITE_URL}/images/oficina/torrador-oficina-1.jpg`,
       address: {
         "@type": "PostalAddress",
+        streetAddress: "Rua Luís Bolognani, 152 - Palomos",
         addressLocality: "Ouro Fino",
         addressRegion: "MG",
         addressCountry: "BR",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: -22.292719,
+        longitude: -46.381836,
+      },
+      hasMap: "https://maps.google.com/?q=-22.292719,-46.381836",
       areaServed: { "@type": "Country", name: "Brasil" },
       contactPoint: {
         "@type": "ContactPoint",
