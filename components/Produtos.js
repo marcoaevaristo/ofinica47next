@@ -72,24 +72,14 @@ export default function Produtos() {
                 {produto.descricao}
               </p>
 
-              <div className="mt-7 flex flex-col gap-2.5">
-                <a
-                  href={`${WHATSAPP_BASE}${produto.mensagem}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="focus-ring rounded-full bg-copper py-2.5 text-center font-body text-sm font-semibold text-paper transition-transform hover:scale-[1.02]"
-                >
-                  Comprar no WhatsApp
-                </a>
-                <a
-                  href={`${WHATSAPP_BASE}${produto.mensagem}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="focus-ring rounded-full border border-brass/40 py-2.5 text-center font-body text-sm text-paper/80 transition-colors hover:border-brass"
-                >
-                  Consultar valores
-                </a>
-              </div>
+              <a
+                href={`${WHATSAPP_BASE}${produto.mensagem}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring mt-7 rounded-full bg-copper py-3 text-center font-body text-sm font-semibold text-paper transition-transform hover:scale-[1.02]"
+              >
+                Pedir orçamento no WhatsApp
+              </a>
             </div>
           ))}
         </div>

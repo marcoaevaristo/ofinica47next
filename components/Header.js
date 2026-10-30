@@ -19,6 +19,9 @@ export default function Header() {
           <a href="#produtos" className="hover:text-copper transition-colors focus-ring rounded">
             Torradores
           </a>
+          <a href="#oficina" className="hover:text-copper transition-colors focus-ring rounded">
+            Fotos e vídeo
+          </a>
           <a href="#contato" className="hover:text-copper transition-colors focus-ring rounded">
             Contato
           </a>
