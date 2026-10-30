@@ -1,6 +1,8 @@
 import { Fraunces, Work_Sans, IBM_Plex_Mono } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import GoogleAds from "@/components/GoogleAds";
+import WhatsAppFlutuante from "@/components/WhatsAppFlutuante";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -73,6 +75,8 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR" className={`${fraunces.variable} ${workSans.variable} ${plexMono.variable}`}>
       <body className="font-body antialiased">
         {children}
+        <WhatsAppFlutuante />
+        <Analytics />
         {googleAdsId ? (
           <>
             <Script
