@@ -47,6 +47,7 @@ const dados = {
         `${SITE_URL}/images/oficina/torrador-oficina-1.jpg`,
         `${SITE_URL}/images/oficina/torrador-oficina-2.jpg`,
         `${SITE_URL}/images/oficina/torrador-oficina-3.jpg`,
+        `${SITE_URL}/images/oficina/torrador-oficina-4.jpg`,
       ],
       brand: { "@type": "Brand", name: "Oficina 47" },
       manufacturer: { "@id": `${SITE_URL}/#empresa` },
