@@ -22,6 +22,9 @@ export default function Header() {
           <a href="#oficina" className="hover:text-copper transition-colors focus-ring rounded">
             Fotos e vídeo
           </a>
+          <a href="#financiamento" className="hover:text-copper transition-colors focus-ring rounded">
+            Financiamento
+          </a>
           <a href="#contato" className="hover:text-copper transition-colors focus-ring rounded">
             Contato
           </a>

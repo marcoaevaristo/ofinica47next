@@ -1,5 +1,7 @@
 // Dados estruturados (schema.org) — ajudam o Google a entender que o site é
 // de um fabricante de torradores em Ouro Fino/MG e quais produtos ele vende.
+import { PERGUNTAS } from "@/lib/perguntas";
+
 const SITE_URL = "https://www.oficina47.com.br";
 const TELEFONE = "+55-35-98441-0099";
 
@@ -31,6 +33,7 @@ const dados = {
       },
       hasMap: "https://maps.google.com/?q=-22.292719,-46.381836",
       areaServed: { "@type": "Country", name: "Brasil" },
+      taxID: "16.882.837/0001-41",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: TELEFONE,
@@ -49,7 +52,7 @@ const dados = {
     ...capacidades.map((cap) => ({
       "@type": "Product",
       name: `Torrador de Café ${cap} Oficina 47`,
-      description: `Torrador de café artesanal com capacidade de ${cap}, fabricado em Ouro Fino - MG.`,
+      description: `Torrador de café comercial com capacidade de ${cap} por lote, a gás GLP, 220V bifásico, com resfriador acoplado, ciclone coletor de película e controle de velocidade do tambor e do fluxo de ar. Fabricado em Ouro Fino - MG, apto para financiamento bancário.`,
       image: [
         `${SITE_URL}/images/oficina/torrador-oficina-1.jpg`,
         `${SITE_URL}/images/oficina/torrador-oficina-2.jpg`,
@@ -60,6 +63,14 @@ const dados = {
       manufacturer: { "@id": `${SITE_URL}/#empresa` },
       category: "Torrador de café",
     })),
+    {
+      "@type": "FAQPage",
+      mainEntity: PERGUNTAS.map((item) => ({
+        "@type": "Question",
+        name: item.pergunta,
+        acceptedAnswer: { "@type": "Answer", text: item.resposta },
+      })),
+    },
   ],
 };
 

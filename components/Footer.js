@@ -42,7 +42,9 @@ export default function Footer() {
               Rua Luís Bolognani, 152 · Palomos · Ouro Fino — MG
             </a>
           </address>
-          <p>© {new Date().getFullYear()} Oficina 47. Todos os direitos reservados.</p>
+          <p>
+            © {new Date().getFullYear()} Oficina 47 · CNPJ 16.882.837/0001-41
+          </p>
         </div>
       </div>
     </footer>
