@@ -26,7 +26,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://oficina47.com.br"),
+  metadataBase: new URL("https://www.oficina47.com.br"),
   title: "Torrador de Café 5kg, 10kg e 15kg | Oficina 47 — Ouro Fino, MG",
   description:
     "Fabricante de torradores de café artesanais em Ouro Fino, Minas Gerais. Modelos de 05kg, 10kg e 15kg para torrefações, cafeterias e produções artesanais. Peça orçamento pelo WhatsApp.",

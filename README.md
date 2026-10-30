@@ -42,21 +42,21 @@ que ele está correto.
 
 O site já gera automaticamente:
 
-- `https://oficina47.com.br/sitemap.xml` (app/sitemap.js)
-- `https://oficina47.com.br/robots.txt` (app/robots.js)
+- `https://www.oficina47.com.br/sitemap.xml` (app/sitemap.js)
+- `https://www.oficina47.com.br/robots.txt` (app/robots.js)
 - título, descrição, URL canônica e imagem de compartilhamento (app/layout.js)
 - dados estruturados da empresa e dos 3 torradores (components/DadosEstruturados.js)
 
 Para cadastrar no Google Search Console:
 
 1. Acesse https://search.google.com/search-console e clique em **Adicionar propriedade**.
-2. Escolha **Prefixo do URL** e digite `https://oficina47.com.br`.
+2. Escolha **Prefixo do URL** e digite `https://www.oficina47.com.br`.
 3. Em **Tag HTML**, copie só o valor de `content="..."`.
 4. Na Vercel, em **Settings → Environment Variables**, crie
    `GOOGLE_SITE_VERIFICATION` com esse valor e faça um novo deploy.
 5. Volte ao Search Console e clique em **Verificar**.
 6. Em **Sitemaps**, envie `sitemap.xml`.
-7. Em **Inspeção de URL**, cole `https://oficina47.com.br/` e clique em
+7. Em **Inspeção de URL**, cole `https://www.oficina47.com.br/` e clique em
    **Solicitar indexação**.
 
 Também vale criar o **Perfil da Empresa no Google** (https://business.google.com),

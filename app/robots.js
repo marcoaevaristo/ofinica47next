@@ -1,4 +1,4 @@
-const SITE_URL = "https://oficina47.com.br";
+const SITE_URL = "https://www.oficina47.com.br";
 
 export default function robots() {
   return {

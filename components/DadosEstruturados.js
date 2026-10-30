@@ -1,6 +1,6 @@
 // Dados estruturados (schema.org) — ajudam o Google a entender que o site é
 // de um fabricante de torradores em Ouro Fino/MG e quais produtos ele vende.
-const SITE_URL = "https://oficina47.com.br";
+const SITE_URL = "https://www.oficina47.com.br";
 const TELEFONE = "+55-35-98441-0099";
 
 const capacidades = ["05kg", "10kg", "15kg"];
